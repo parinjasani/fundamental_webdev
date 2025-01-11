@@ -29,3 +29,16 @@
 #footer{
     grid-area: ft;
 }
+
+@media(max-width:800px){
+    .container{
+     grid-gap: 10px;
+    grid-template-rows: 100px 300px 400px 100px;
+    grid-template-columns:1fr;
+    grid-template-areas: 
+    "hd "
+    "sd"
+    "main"
+    "ft";
+    }
+}
