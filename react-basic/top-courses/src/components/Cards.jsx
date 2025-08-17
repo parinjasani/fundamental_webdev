@@ -6,7 +6,7 @@ function Cards(props) {
   
   let courses = props.courses;
   let category = props.category;
-  console.log(courses);
+  
   const [likedCourses, setLikedCourses] = useState([]); 
 
 
@@ -20,8 +20,8 @@ function Cards(props) {
             allCourses.push(course);
         })
       })
-      console.log("All courses:", allCourses);
-      return allCourses;
+      // console.log("All courses:", allCourses);
+      return allCourses ;
 
       
       

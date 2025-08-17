@@ -6,7 +6,7 @@ function Filter(props) {
         // let category = props.category;
         function categoryHandler(title) {
             setCategory(title);
-            console.log("Category selected:", title);
+            // console.log("Category selected:", title);
         }
        
         return(

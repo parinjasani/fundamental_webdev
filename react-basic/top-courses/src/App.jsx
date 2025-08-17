@@ -22,7 +22,7 @@ function App() {
       try{
       const response = await fetch(apiUrl);
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
 
       //save data in state
       setCourses(data.data);
